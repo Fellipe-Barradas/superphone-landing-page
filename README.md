@@ -64,6 +64,7 @@ This is a landing page for a cell phone shop. It is built with Angular 17. It is
 
 * [![Angular][Angular.io]][Angular-url]
 * [![SCSS][SCSS]][SCSS-url]
+* [![Bootstrap][Bootstrap]][Bootstrap-url]
 * [![Blender][Blender]][Blender-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -134,3 +135,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [SCSS-url]: https://sass-lang.com/
 [Blender]: https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white
 [Blender-url]: https://www.blender.org/
+[Bootstrap]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com/
+
