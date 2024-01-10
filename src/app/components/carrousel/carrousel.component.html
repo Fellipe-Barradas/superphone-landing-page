@@ -1,23 +1,11 @@
-<ngb-carousel activeId="1">
-  <ng-template ngbSlide id="one" (slid)="onSignleSlideEvent($event)">
-    <img src="https://picsum.photos/900/500?random&t=1" alt="Random first slide">
-    <div class="carousel-caption">
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </div>
-  </ng-template>
-  <ng-template ngbSlide id="two" (slid)="onSignleSlideEvent($event)">
-    <img src="https://picsum.photos/900/500?random&t=2" alt="Random second slide">
-    <div class="carousel-caption">
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-  </ng-template>
-  <ng-template ngbSlide id="three" (slid)="onSignleSlideEvent($event)">
-    <img src="https://picsum.photos/900/500?random&t=3" alt="Random third slide">
-    <div class="carousel-caption">
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+<ngb-carousel activeId="1" id="carrousel" >
+  <ng-template ngbSlide *ngFor="let slide of slides">
+    <div class="slide">
+      <img [src]="slide.src" [alt]="slide.alt">
+      <div class="carousel-caption">
+        <h3>{{ slide.title }}</h3>
+        <p>{{ slide.desc }}</p>
+      </div>
     </div>
   </ng-template>
 </ngb-carousel>
