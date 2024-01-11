@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CarrouselComponent } from '../../components/carrousel/carrousel.component';
-import { CommonModule } from '@angular/common';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
-
+  constructor() {
+    AOS.init();
+  }
 }
