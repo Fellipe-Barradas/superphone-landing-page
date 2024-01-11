@@ -1,0 +1,102 @@
+@import '../../../scss/variables';
+
+
+#design {
+  margin-top: 20px;
+  height: 650px;
+  background-color: #5E697B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #image {
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 600px;
+    height: 500px;
+  }
+
+  .text {
+    margin-left: 50px;
+    width: 500px;
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(45deg, #EDE1D6, #817D9C, #61697C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+}
+
+
+@media screen and (max-width: $screen-lg) {
+
+    #design {
+      height: 100%;
+      padding: 20px;
+      flex-direction: column;
+
+      #image {
+        width: 700px;
+        height: 500px;
+      }
+
+      .text {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+
+}
+
+@media screen and (max-width: $screen-md) {
+    #design {
+      height: 100%;
+      padding: 20px;
+      flex-direction: column;
+
+      #image {
+        width: 500px;
+        height: 400px;
+      }
+
+      .text {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+}
+
+@media screen and (max-width: $screen-sm) {
+    #design {
+      height: 100%;
+      padding: 20px;
+      flex-direction: column;
+
+      #image {
+        width: 300px;
+        height: 250px;
+      }
+
+      .text {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
