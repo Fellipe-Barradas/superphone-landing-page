@@ -31,16 +31,16 @@ export class CarrouselComponent {
       id: 2,
       src: '../../../assets/images/celular_image_2.png',
       alt: 'Second slide',
-      title: 'Capture Every Detail',
-      desc: 'Equipped with dual cameras for stunning photos and videos. Experience professional-level photography with our state-of-the-art camera system.'
-    },
-    {
-      id: 3,
-      src: '../../../assets/images/celular_image_3.png',
-      alt: 'Third slide',
-      title: 'Faming on the Go',
-      desc: 'Transform your smartphone into a gaming console with the detachable controller. Enjoy a truly immersive gaming experience anywhere, anytime.'
-    }
+        title: 'Capture cada detalhe',
+        desc: 'Equipado com câmeras duplas para fotos e vídeos impressionantes. Experimente a fotografia de nível profissional com nosso sistema de câmera de última geração.'
+      },
+      {
+        id: 3,
+        src: '../../../assets/images/celular_image_3.png',
+        alt: 'Terceiro slide',
+        title: 'Jogando em movimento',
+        desc: 'Transforme seu smartphone em um console de jogos com o controle removível. Desfrute de uma experiência de jogo verdadeiramente imersiva em qualquer lugar, a qualquer momento.'
+      }
   ];
 
 }
