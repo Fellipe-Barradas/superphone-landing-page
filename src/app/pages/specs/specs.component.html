@@ -1,1 +1,19 @@
-<p>specs works!</p>
+<main>
+  <img src="../../../assets/images/celular_image_8.png" alt="Imagem do celular">
+  <div>
+    <h1>ESPECIFICAÇÕES</h1>
+    <div id="specs">
+      <div *ngFor="let spec of specs">
+        <div (click)="showContent(spec.id)">
+          <img [src]="spec.id == selectedSpec
+            ? '../../../assets/icons/minus.svg'
+            : '../../../assets/icons/plus.svg'"
+            alt="butão accordião">
+          <h2 >{{spec.name}}</h2>
+        </div>
+        <p [class.selected]="spec.id == selectedSpec">{{spec.description}}</p>
+      </div>
+    </div>
+
+  </div>
+</main>
