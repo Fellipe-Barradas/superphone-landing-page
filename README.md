@@ -12,14 +12,9 @@
   <p align="center">
     Landing page for cell phone shop
     <br />
-    <!-- <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+    <!-- 
     <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a> -->
+     -->
   </p>
 </div>
 
@@ -52,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="./images/site.png">
 
 This is a landing page for a cell phone shop. It is built with Angular 17. It is a work in progress.
 
@@ -66,6 +61,10 @@ This is a landing page for a cell phone shop. It is built with Angular 17. It is
 * [![SCSS][SCSS]][SCSS-url]
 * [![Bootstrap][Bootstrap]][Bootstrap-url]
 * [![Blender][Blender]][Blender-url]
+
+### Libraries Used
+* AOS - Animate on Scroll
+* Netlify Deployment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +116,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Fellipe-Barradas/superphone-landing-page](https://github.com/Fellipe-Barradas/superphone-landing-page)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +126,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-shield]: https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: http://www.linkedin.com/in/luis-fellipe-100759204
 [product-screenshot]: images/screenshot.png
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
