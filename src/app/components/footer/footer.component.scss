@@ -32,7 +32,7 @@ footer {
   }
 }
 
-@media  screen and (max-width: $screen-lg) {
+@media  screen and (max-width: $screen-sm) {
   footer {
     div {
       flex-direction: column;
