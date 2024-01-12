@@ -1,1 +1,41 @@
-<p>buy works!</p>
+<main>
+  <div class="galery">
+    <img src="../../../assets/images/celular_image_5.png" alt="Celular">
+    <div class="thumbnails">
+      <img src="../../../assets/images/celular_image_1.png" alt="Celular">
+      <img src="../../../assets/images/celular_image_2.png" alt="Celular">
+      <img src="../../../assets/images/celular_image_3.png" alt="Celular">
+    </div>
+  </div>
+
+  <div>
+    <h1>Superphone</h1>
+    <h3>R$ 4.2000</h3>
+    <p>12x de R$ 350,00 sem juros</p>
+
+    <form>
+      <div>
+        <label for="color">Cor:</label>
+        <select name="color" id="color">
+          <option value="black">Preto</option>
+          <option value="white">Branco</option>
+          <option value="gold">Dourado</option>
+        </select>
+      </div>
+      <div>
+        <input type="button" name="decrease" value="-" class="quantity" (click)="decreaseQuantity()">
+        <input type="text" name="quantity" [value]="quantity">
+        <input type="button" name="increase" value="+" class="quantity" (click)="increaseQuantity()">
+      </div>
+      <div>
+        <h2>Total</h2>
+        <h3>R$ {{ total }},00</h3>
+      </div>
+      <input type="button" value="Finalizar compra">
+    </form>
+
+    <input type="button" value="calcular frete">
+  </div>
+
+
+</main>
