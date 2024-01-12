@@ -8,18 +8,18 @@ footer {
 
   div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     ul {
       list-style: none;
-      padding: 10px;
       margin: 0;
 
       li {
+        font-size: 0.6rem;
         font-weight: 300;
-        padding: 5px 0;
         cursor: pointer;
 
         &:first-child {
+          font-size: 0.7rem;
           font-weight: bold;
         }
       }
@@ -27,7 +27,7 @@ footer {
 
     p {
       font-weight: 300;
-      padding: 5px 5px;
+      padding: 0px 5px;
     }
   }
 }
