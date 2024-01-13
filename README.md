@@ -12,9 +12,7 @@
   <p align="center">
     Landing page for cell phone shop
     <br />
-    <!-- 
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-     -->
+    <a href="https://monumental-kheer-76a0a4.netlify.app/">View Demo</a>
   </p>
 </div>
 
